@@ -44,8 +44,8 @@ Utworzyć plik 3.txt zawierającego 5 ostatnich wpisów z historii terminala bas
 
 ```
 
-cat ~/.bash_history | tail 5 > 3.txt
-cat ~/.bash_history | head 3 >> 3.txt
+cat ~/.bash_history | tail -n 5 > 3.txt
+cat ~/.bash_history | head -n 3 >> 3.txt
 cat 3.txt
 
 ```
@@ -53,7 +53,7 @@ cat 3.txt
 Nadpisać plik 3.txt ostatnimi 10 linijkami z historii terminala
 
 ```
-cat ~/.bash_history | tail 10 > 3.txt
+cat ~/.bash_history | tail -n 10 > 3.txt
 ```
 
 Przenieść plik 1.txt do folderu testfolder2, a następnie zmienić jego nazwę na 11.txt
