@@ -85,7 +85,10 @@ whoami
 ```
 7. Nadać pełne uprawnienia zapisu, odczytu, wykonywania do pliku dla wszystkich
 8. Wykonać plik jako dowolny użytkownik
-9. Stworzyć w folderze /tmp symlink do pliku username.sh
+```
+./username.sh
+```
+9.  Stworzyć w folderze /tmp symlink do pliku username.sh
 10. Przetestować symlink, a następnie usunąć plik username.sh, przetestować symlink jeszcze raz.
 11. Usunąć symlink (polecenie rm), jeszcze raz stworzyć plik username.sh tak jak wcześniej (tekst + uprawnienia)
 12. Stworzyć hard link do pliku username.sh w folderze /tmp
